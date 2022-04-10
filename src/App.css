@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Merriweather:wght@300&family=Raleway:wght@200&family=Zen+Antique&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 ul {
     list-style: none;
@@ -8,8 +8,13 @@ ul {
     justify-content: space-evenly;
 }
 
+Button:hover {
+    background-color: rgb(248,249,250) !important;
+    text-shadow: 1px 1px rgba(255,0,0, 0.5);
+}
+
 body {
-    font-family: 'Merriweather';
+    font-family: 'Playfair Display', serif !important;
 }
 
 .projects-container {
@@ -70,6 +75,10 @@ body {
     text-shadow: 1px 1px 3px #fff;
 }
 
+.nav-section:hover {
+    border-bottom: 0.02rem solid black !important;
+}
+
 .btn-primary {
     color: #9c9f84 !important;
     background-color: bisque !important;
@@ -84,6 +93,10 @@ body {
     color: #9c9f84;
 }
 
-a.Button:hover {
+Button:hover {
     background-color: #9c9f84;
+}
+
+.nav-section:hover {
+    border: solid 2px black;
 }
