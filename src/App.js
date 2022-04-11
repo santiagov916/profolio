@@ -9,9 +9,9 @@ function App() {
   return (
    <>
     <Home></Home>
-    <Cover></Cover>
+    {/* <Cover></Cover>
     <Projects></Projects>
-    <Contact></Contact>
+    <Contact></Contact> */}
    </>
   );
 }

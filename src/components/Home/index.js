@@ -4,20 +4,23 @@ import intro from '../../assets/me/handshake.jpeg';
 
 
 function Home() {
-    return(
-        <div className='home-div col-12 text-center bg-light m-auto d-flex'>
-            <img className='p-5 rounded col-4 img-fluid' src={intro} alt=''/>
-        <div className='m-auto col-8'>
-            <h1>Hello, I'm <span className='text-danger'>Santiago Venegas.</span>
-            <br /> I'm a Fullstack Developer.</h1>
-            <div class="btn-group" role="group" aria-label="Button Prompts">
-            <button type="button" class="btn home-btn" >Portfolio</button>
-            <span className='m-auto'>|</span>
-            <button type="button" class="btn home-btn">Resume</button>
-            </div>
+return(
+    <div className='container-fluid'>
+        <div className='row'>
+          <div className='image-side col-lg-5 col-md-5 col-xs-12 p-5 text-center'>
+            <img className='img-fluid m-auto img-thumbnail w-50 rounded' src={intro} alt='' />
+          </div>
+
+          <div className='col-lg-7 col-md-7 col-sm-12 text-center m-auto'>
+            <p className='display-6'>Hello, I'm <span className='text-danger'>Santiago Venegas.</span><br /> I'm a Fullstack Developer.</p>
+
+            
+          </div>
         </div>
-        </div>
-    )
+    </div>
+)
 };
+
+
 
 export default Home;
