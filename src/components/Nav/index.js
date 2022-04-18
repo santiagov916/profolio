@@ -1,7 +1,7 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Nav } from 'react-bootstrap';
-import image from '../../assets/resume/resume.jpg'
+import image from '../../assets/resume/first.jpg'
 
 function Navbar() {
     return(
