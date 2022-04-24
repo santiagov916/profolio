@@ -46,7 +46,7 @@ function About() {
                                 fluid
                                 src={coverPhoto}
                                 alt=''
-                                className='cover-photo rounded p-5'/>
+                                className='rounded p-5'/>
                             </div>
                         </div>
                         </div>
