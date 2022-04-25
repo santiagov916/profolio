@@ -9,10 +9,12 @@ function TechnicalSkills() {
     return (
         <>
         <div className="container-fluid">
-            <div className="row">
-                <div className="col-6">
-                    <Image fluid alt="" src={stairs} className="w-50 offset-3" />
+            <div className="row m-auto">
+                <div className="col-6 my-auto">
+                    <Image fluid alt="" src={stairs} className="w-50 offset-3 p-3" />
                 </div>
+
+
                 <div className="col-6 m-auto">
                 
                         <header className="text-center m-auto h3 pb-3">Technical Skills</header>
@@ -38,6 +40,9 @@ function TechnicalSkills() {
                             </div>
                             <div className="col-12 my-3">
                             <ProgressBar className="w-75 m-auto" variant="warning text-dark" now={80} label={`back-end database`}></ProgressBar>
+                            </div>
+                            <div className="col-12 my-3">
+                            <ProgressBar className="w-75 m-auto" variant="warning text-dark" now={50} label={`MERN Stack`}></ProgressBar>
                             </div>
                          
                </div>
