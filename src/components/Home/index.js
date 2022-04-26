@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, scrollToSection } from 'react';
 import Bootstrap from 'bootstrap';
 import intro from '../../assets/me/handshake.jpeg';
 import resume from '../../assets/resume/first.jpg';
 import secondResume from '../../assets/resume/second.jpg';
 import download from 'downloadjs';
 import { Modal, Button } from 'react-bootstrap';
+import { scroller } from 'react-scroll';
 
 
 function Home() {
@@ -20,7 +21,14 @@ function Home() {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-return(
+  scrollToSection = () => {
+    scroller.scrollTo("projects", {
+      duration: 200,
+      delay: 0,
+    });
+  };
+
+return (
     <div className='container-fluid mt-5'>
         <div className='row min-100-vw'>
           <div className='image-side col-lg-5 col-md-12 col-sm-12 col-xs-12 p-5 text-center flex-column mb-auto'>
@@ -37,7 +45,7 @@ return(
 
             </div>
             <div className="btn-group pb-5" id='resumeBtn' role="group" aria-label="Button Prompts">
-                <button type="button" className="btn btn-outline-danger" download>Portfolio</button>
+                <button type="button" className="btn btn-outline-danger" onClick={scrollToSection}>Portfolio</button>
                 <Button variant="" className=" btn-outline-danger" onClick={handleShow}>
                 Resume
                 </Button>

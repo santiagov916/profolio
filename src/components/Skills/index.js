@@ -17,7 +17,7 @@ function TechnicalSkills() {
 
                 <div className="col-6 m-auto">
                 
-                        <header className="text-center m-auto h3 pb-3">Technical Skills</header>
+                        <header className="text-center m-auto h3 pb-2">Technical Skills</header>
                        
                
                             <div className="col-12 my-3">
