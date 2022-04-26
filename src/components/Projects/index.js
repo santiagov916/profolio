@@ -1,31 +1,64 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Card, Button, Container, Col, Row } from 'react-bootstrap';
+import { Card, Button, Container, Col, Row, Image } from 'react-bootstrap';
 import first from '../../assets/projects/0.jpg';
 import second from '../../assets/projects/1.jpg';
 import third from '../../assets/projects/4.jpg'
 
 function Projects() {
 
+  
+
   return(
       <>
         <div className="container-fluid mt-4 projects" id="#projects">
           <div className="row">
             <p className="text-center h3">Projects</p>
-            <div className="col-12 mt-3">
-              <div className="row">
+            <div className="col-12">
+              <div className="row py-1 px-5">
 
-                <div className="col-4">
-                  <img className="w-50" src={first} />
+              <div className="col-12 p-0">
+                  <a className="project-link" href="https://github.com/santiagov916">
+                    <Image fluid src={first} alt="" className="h-100"/>\
+                  </a>
                 </div>
 
-                <div className="col-4">
-                  <img className="w-50" src={second} />
+              <div className="col-4 p-0">
+                  <a className="project-link" href="https://github.com/santiagov916">
+                    <Image fluid src={first} alt="" className="h-100"/>\
+                  </a>
                 </div>
 
-                <div className="col-4">
-                  <img className="w-50" src={third} />
+                <div className="col-4 p-0">
+                  <a className="project-link" href="https://github.com/santiagov916">
+                    <Image fluid src={second} alt="" className="h-100"/>\
+                  </a>
                 </div>
+
+                <div className="col-4 p-0">
+                  <a className="project-link" href="https://github.com/santiagov916">
+                    <Image fluid src={third} alt="" className="h-100"/>\
+                  </a>
+                </div>
+
+                <div className="col-4 p-0">
+                  <a className="project-link" href="https://github.com/santiagov916">
+                    <Image fluid src={second} alt="" className="h-100"/>\
+                  </a>
+                </div>
+
+                <div className="col-4 p-0">
+                  <a className="project-link" href="https://github.com/santiagov916">
+                    <Image fluid src={third} alt="" className="h-100"/>\
+                  </a>
+                </div>
+
+                <div className="col-4 p-0">
+                  <a className="project-link" href="https://github.com/santiagov916">
+                    <Image fluid src={first} alt="" className="h-100"/>\
+                  </a>
+                </div>
+
               </div>
             </div>
           </div>
