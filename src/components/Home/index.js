@@ -29,7 +29,7 @@ function Home() {
   };
 
 return (
-    <div className='container-fluid mt-5'>
+    <div className='container-fluid mt-5' id="#home">
         <div className='row min-100-vw'>
           <div className='image-side col-lg-5 col-md-12 col-sm-12 col-xs-12 p-5 text-center flex-column mb-auto'>
          
