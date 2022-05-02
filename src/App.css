@@ -4,6 +4,18 @@ body {
     font-family: 'Playfair Display', serif !important;
 }
 
-.btn-link {
-    text-decoration: none !important;
+.project-link:hover {
+    background-color: black;
+    opacity: 50%;
+    scrollbar-darkshadow-color: black;
+}
+
+.project-div {
+    background-image: url('./assets//projects/0.jpg');
+    background-position: center;
+    background-size: contain;
+}
+
+.project-div:hover {
+    background-image: unset;
 }

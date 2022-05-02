@@ -13,55 +13,82 @@ function Projects() {
       <>
         <div className="container-fluid mt-4 projects" id="#projects">
           <div className="row">
-            <p className="text-center h3">Projects</p>
+           
             <div className="col-12">
-              <div className="row py-1 px-5">
+              <div className="row py-1">
 
-              <div className="col-12 p-0">
-                  <a className="project-link" href="https://github.com/santiagov916">
-                    <Image fluid src={first} alt="" className="h-100"/>\
-                  </a>
-                </div>
+              <div className="row">
+          <div className="col-12">
+            <p className="h3 text-center p-4">Featured Projects</p>
+          </div>
+          <div className="col-12">
+          </div>
+         <div id="carouselExampleControls" className="carousel carousel-dark slide" data-bs-ride="carousel">
+           <div className="carousel-inner w-75 m-auto">
+             <div className="carousel-item active">
+               <img src={first} className="d-block w-100" alt="" />
+             </div>
+             <div className="carousel-item">
+             <img src={second} className="d-block w-100" alt="" />
+             </div>
+             <div className="carousel-item">
+               <img src={third} className="d-block w-100" alt="" />
+             </div>
+           </div>
+
+           <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+             <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+             <span className="visually-hidden">Previous</span>
+           </button>
+
+           <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+             <span className="carousel-control-next-icon" aria-hidden="true"></span>
+             <span className="visually-hidden">Next</span>
+           </button>
+         </div>
+          </div>
 
               <div className="col-4 p-0">
                   <a className="project-link" href="https://github.com/santiagov916">
-                    <Image fluid src={first} alt="" className="h-100"/>\
+                    <Image fluid src={first} alt="" className="h-100"/>
                   </a>
                 </div>
 
                 <div className="col-4 p-0">
                   <a className="project-link" href="https://github.com/santiagov916">
-                    <Image fluid src={second} alt="" className="h-100"/>\
+                    <Image fluid src={second} alt="" className="h-100"/>
                   </a>
                 </div>
 
                 <div className="col-4 p-0">
                   <a className="project-link" href="https://github.com/santiagov916">
-                    <Image fluid src={third} alt="" className="h-100"/>\
+                    <Image fluid src={third} alt="" className="h-100"/>
+                  </a>
+                </div>
+
+               <Card className="col-4 p-0 project-div">
+                <Card.Body>
+                  <Card.Text className="text-dark bg-warning text-center mx-4">Random Project</Card.Text>
+                </Card.Body>
+               </Card>
+
+                <div className="col-4 p-0">
+                  <a className="project-link" href="https://github.com/santiagov916">
+                    <Image fluid src={third} alt="" className="h-100"/>
                   </a>
                 </div>
 
                 <div className="col-4 p-0">
                   <a className="project-link" href="https://github.com/santiagov916">
-                    <Image fluid src={second} alt="" className="h-100"/>\
-                  </a>
-                </div>
-
-                <div className="col-4 p-0">
-                  <a className="project-link" href="https://github.com/santiagov916">
-                    <Image fluid src={third} alt="" className="h-100"/>\
-                  </a>
-                </div>
-
-                <div className="col-4 p-0">
-                  <a className="project-link" href="https://github.com/santiagov916">
-                    <Image fluid src={first} alt="" className="h-100"/>\
+                    <Image fluid src={first} alt="" className="h-100"/>
                   </a>
                 </div>
 
               </div>
             </div>
           </div>
+
+
         </div>
       </>
 //         <Container id='projects' fluid className='projects-container'>
