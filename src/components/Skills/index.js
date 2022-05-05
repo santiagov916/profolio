@@ -10,7 +10,7 @@ function TechnicalSkills() {
         <>
         <div className="container border-top">
             <div className="row m-auto mt-4">
-                <div className="col-6 my-auto">
+                <div className="col-4 my-auto">
                     <Image fluid alt="" src={stairs} className="w-75 offset-3 p-3" />
                 </div>
 
