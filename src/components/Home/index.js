@@ -49,7 +49,10 @@ return (
                 <Button variant="" className=" btn-outline-danger" onClick={handleShow}>
                 Resume
                 </Button>
+                <button type="submit" className="btn btn-outline-danger" ><a href="https://github.com/santiagov916/profolio" className="text-danger text-decoration-none resume-btn" target="_blank">
+                  Resume Repository</a></button>
             </div>
+            
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>

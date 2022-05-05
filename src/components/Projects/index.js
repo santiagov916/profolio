@@ -16,74 +16,45 @@ function Projects() {
            
             <div className="col-12">
               <div className="row py-1">
-
-              <div className="row my-3">
           <div className="col-12">
             <p className="h3 text-center p-4">Featured Projects</p>
           </div>
-          <div className="col-12">
-          </div>
-         <div id="carouselExampleControls" className="carousel carousel-dark slide" data-bs-ride="carousel">
-           <div className="carousel-inner w-75 m-auto">
-             <div className="carousel-item active">
-               <img src={first} className="d-block w-100" alt="" />
-             </div>
-             <div className="carousel-item">
-             <img src={second} className="d-block w-100" alt="" />
-             </div>
-             <div className="carousel-item">
-               <img src={third} className="d-block w-100" alt="" />
-             </div>
-           </div>
 
-           <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-             <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-             <span className="visually-hidden">Previous</span>
-           </button>
-
-           <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-             <span className="carousel-control-next-icon" aria-hidden="true"></span>
-             <span className="visually-hidden">Next</span>
-           </button>
-         </div>
-          </div>
-
-               
               <div className="col-lg-4 col-md-6 col-xs-12 col-sm-12 m-auto p-0">
-              <Card className="border-0 project-div">
+              <Card className="border-0 project-div-panda">
                 <Card.Body className="project-info text-center">
-                  <CardHeader className="text-dark bg-light text-center m-1 border-0 ">Random Project</CardHeader>
+                  <CardHeader className="text-dark bg-light text-center m-1 border-0 ">Weather Dashboard</CardHeader>
                   
                   <ul className="list-group list-group-horizontal text-center justify-content-center">
                     <li className="list-group-item p-0 border-0 mx-2">
-                      asdgasgd
-                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                      Bootstrap
+                      <span className="badge bg-primary rounded-pill m-2">95%</span>
                     </li>
                     <li className="list-group-item p-0 border-0 mx-2">
-                      asdgasgd
-                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                      Javascript
+                      <span className="badge bg-primary rounded-pill m-2">60%</span>
                     </li>
                     <li className="list-group-item p-0 border-0 mx-2">
-                      asdgasgd
-                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                      API
+                      <span className="badge bg-primary rounded-pill m-2">30%</span>
                     </li>
                     <li className="list-group-item p-0 border-0 mx-2">
-                      asdgasgd
-                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                      LocalStorage
+                      <span className="badge bg-primary rounded-pill m-2">100%</span>
                     </li>
                   </ul>
                    
-                  <Card.Text >lorem impsum doodly giggly goo God has been so Good to me and I thank him everyday for all that he has been doing in each and every one of our lives! I heard today that some saints were brutally murdered for the name of Jesus, that is very sobering.</Card.Text>
+                  <Card.Text >Check the weather easily with the Weather Dashboard! Easy , intuitive , clean design!</Card.Text>
                 
                 <div className="row">
                   <div className="col-6">
 
-                  <Card.Link href="https://www.google.com" className="bg-primary text-light rounded p-2">another link</Card.Link>
+                  <Card.Link href="https://santiagov916.github.io/WeatherDashboard/" target="_blank" className="bg-primary text-light rounded p-2 text-decoration-none">Deployed</Card.Link>
 
                   </div>
                   <div className="col-6">
 
-                  <Card.Link href="https://www.google.com" className="bg-primary text-light rounded p-2">another link</Card.Link>
+                  <Card.Link href="https://github.com/santiagov916/WeatherDashboard" target="_blank" className="bg-primary text-light rounded p-2 text-decoration-none">Repository</Card.Link>
 
                   </div>
 
@@ -93,40 +64,40 @@ function Projects() {
               </div>
 
               <div className="col-lg-4 col-md-6 col-xs-12 col-sm-12 m-auto p-0">
-              <Card className="border-0 project-div">
+              <Card className="border-0 project-div-squirrel">
                 <Card.Body className="project-info text-center">
-                  <CardHeader className="text-dark bg-light text-center m-1 border-0 ">Random Project</CardHeader>
+                  <CardHeader className="text-dark bg-light text-center m-1 border-0 ">E-Commerce Backend</CardHeader>
                   
                   <ul className="list-group list-group-horizontal text-center justify-content-center">
                     <li className="list-group-item p-0 border-0 mx-2">
-                      asdgasgd
-                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                      Express
+                      <span className="badge bg-primary rounded-pill m-2">100%</span>
                     </li>
                     <li className="list-group-item p-0 border-0 mx-2">
-                      asdgasgd
-                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                      Mysql2
+                      <span className="badge bg-primary rounded-pill m-2">50%</span>
                     </li>
                     <li className="list-group-item p-0 border-0 mx-2">
-                      asdgasgd
-                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                      Sequelize
+                      <span className="badge bg-primary rounded-pill m-2">40%</span>
                     </li>
                     <li className="list-group-item p-0 border-0 mx-2">
-                      asdgasgd
-                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                      Dotenv
+                      <span className="badge bg-primary rounded-pill m-2">10%</span>
                     </li>
                   </ul>
                    
-                  <Card.Text >lorem impsum doodly giggly goo God has been so Good to me and I thank him everyday for all that he has been doing in each and every one of our lives! I heard today that some saints were brutally murdered for the name of Jesus, that is very sobering.</Card.Text>
+                  <Card.Text >Complete Backend for an online business, See repository for functionality!</Card.Text>
                 
                 <div className="row">
                   <div className="col-6">
 
-                  <Card.Link href="https://www.google.com" className="bg-primary text-light rounded p-2">another link</Card.Link>
+                  <Card.Link href="https://github.com/santiagov916/e-commerce-database" className="bg-primary text-light rounded p-2 text-decoration-none" target="_blank">Repository</Card.Link>
 
                   </div>
                   <div className="col-6">
 
-                  <Card.Link href="https://www.google.com" className="bg-primary text-light rounded p-2">another link</Card.Link>
+                  <Card.Link href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository" className="bg-primary text-light rounded p-2 text-decoration-none" target="_blank">Clone Repo</Card.Link>
 
                   </div>
 
@@ -136,40 +107,40 @@ function Projects() {
               </div>
 
               <div className="col-lg-4 col-md-6 col-xs-12 col-sm-12 m-auto p-0">
-              <Card className="border-0 project-div">
+              <Card className="border-0 project-div-turtle">
                 <Card.Body className="project-info text-center">
-                  <CardHeader className="text-dark bg-light text-center m-1 border-0 ">Random Project</CardHeader>
+                  <CardHeader className="text-dark bg-light text-center m-1 border-0 ">Dev-Tech Blog</CardHeader>
                   
                   <ul className="list-group list-group-horizontal text-center justify-content-center">
                     <li className="list-group-item p-0 border-0 mx-2">
-                      asdgasgd
-                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                      Express
+                      <span className="badge bg-primary rounded-pill m-2">80%</span>
                     </li>
                     <li className="list-group-item p-0 border-0 mx-2">
-                      asdgasgd
-                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                      MySQL2
+                      <span className="badge bg-primary rounded-pill m-2">40%</span>
                     </li>
                     <li className="list-group-item p-0 border-0 mx-2">
-                      asdgasgd
-                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                      Sequelize
+                      <span className="badge bg-primary rounded-pill m-2">60%</span>
                     </li>
                     <li className="list-group-item p-0 border-0 mx-2">
-                      asdgasgd
-                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                      Node.js
+                      <span className="badge bg-primary rounded-pill m-2">100%</span>
                     </li>
                   </ul>
                    
-                  <Card.Text >lorem impsum doodly giggly goo God has been so Good to me and I thank him everyday for all that he has been doing in each and every one of our lives! I heard today that some saints were brutally murdered for the name of Jesus, that is very sobering.</Card.Text>
+                  <Card.Text >Ready to go Tech Blog; A bit outdated but still solid piece of work!</Card.Text>
                 
                 <div className="row">
                   <div className="col-6">
 
-                  <Card.Link href="https://www.google.com" className="bg-primary text-light rounded p-2">another link</Card.Link>
+                  <Card.Link href="https://github.com/santiagov916/dev-tech-blog" className="bg-primary text-light rounded p-2 text-decoration-none" target="_blank">Repository</Card.Link>
 
                   </div>
                   <div className="col-6">
 
-                  <Card.Link href="https://www.google.com" className="bg-primary text-light rounded p-2">another link</Card.Link>
+                  <Card.Link href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository" className="bg-primary text-light rounded p-2 text-decoration-none" target="_blank">Clone Repo</Card.Link>
 
                   </div>
 
@@ -179,40 +150,40 @@ function Projects() {
               </div>
 
               <div className="col-lg-4 col-md-6 col-xs-12 col-sm-12 m-auto p-0">
-              <Card className="border-0 project-div">
+              <Card className="border-0 project-div-turtle">
                 <Card.Body className="project-info text-center">
-                  <CardHeader className="text-dark bg-light text-center m-1 border-0 ">Random Project</CardHeader>
+                  <CardHeader className="text-dark bg-light text-center m-1 border-0 ">Social-API</CardHeader>
                   
                   <ul className="list-group list-group-horizontal text-center justify-content-center">
                     <li className="list-group-item p-0 border-0 mx-2">
-                      asdgasgd
-                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                      Express
+                      <span className="badge bg-primary rounded-pill m-2">60%</span>
                     </li>
                     <li className="list-group-item p-0 border-0 mx-2">
-                      asdgasgd
-                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                      Mongoose
+                      <span className="badge bg-primary rounded-pill m-2">40%</span>
                     </li>
                     <li className="list-group-item p-0 border-0 mx-2">
-                      asdgasgd
-                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                      Moment
+                      <span className="badge bg-primary rounded-pill m-2">10%</span>
                     </li>
                     <li className="list-group-item p-0 border-0 mx-2">
-                      asdgasgd
-                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                      Insomnia
+                      <span className="badge bg-primary rounded-pill m-2">100%</span>
                     </li>
                   </ul>
                    
-                  <Card.Text >lorem impsum doodly giggly goo God has been so Good to me and I thank him everyday for all that he has been doing in each and every one of our lives! I heard today that some saints were brutally murdered for the name of Jesus, that is very sobering.</Card.Text>
+                  <Card.Text >Backend database created for a social media setting! Tested by Insomnia.</Card.Text>
                 
                 <div className="row">
                   <div className="col-6">
 
-                  <Card.Link href="https://www.google.com" className="bg-primary text-light rounded p-2">another link</Card.Link>
+                  <Card.Link href="https://github.com/santiagov916/social-api" className="bg-primary text-light rounded p-2 text-decoration-none" target="_blank">Repository</Card.Link>
 
                   </div>
                   <div className="col-6">
 
-                  <Card.Link href="https://www.google.com" className="bg-primary text-light rounded p-2">another link</Card.Link>
+                  <Card.Link href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository" className="bg-primary text-light rounded p-2 text-decoration-none" target="_blank">Clone Repo</Card.Link>
 
                   </div>
 
@@ -222,40 +193,32 @@ function Projects() {
               </div>
 
               <div className="col-lg-4 col-md-6 col-xs-12 col-sm-12 m-auto p-0">
-              <Card className="border-0 project-div">
+              <Card className="border-0 project-div-panda">
                 <Card.Body className="project-info text-center">
-                  <CardHeader className="text-dark bg-light text-center m-1 border-0 ">Random Project</CardHeader>
+                  <CardHeader className="text-dark bg-light text-center m-1 border-0 ">Employee Tracker</CardHeader>
                   
                   <ul className="list-group list-group-horizontal text-center justify-content-center">
                     <li className="list-group-item p-0 border-0 mx-2">
-                      asdgasgd
-                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                      Inquirer
+                      <span className="badge bg-primary rounded-pill m-2">50%</span>
                     </li>
                     <li className="list-group-item p-0 border-0 mx-2">
-                      asdgasgd
-                      <span class="badge bg-primary rounded-pill m-2">14</span>
-                    </li>
-                    <li className="list-group-item p-0 border-0 mx-2">
-                      asdgasgd
-                      <span class="badge bg-primary rounded-pill m-2">14</span>
-                    </li>
-                    <li className="list-group-item p-0 border-0 mx-2">
-                      asdgasgd
-                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                      MySQL2
+                      <span className="badge bg-primary rounded-pill m-2">50%</span>
                     </li>
                   </ul>
                    
-                  <Card.Text >lorem impsum doodly giggly goo God has been so Good to me and I thank him everyday for all that he has been doing in each and every one of our lives! I heard today that some saints were brutally murdered for the name of Jesus, that is very sobering.</Card.Text>
+                  <Card.Text >Simple and straight to it database design with CLI inquirer prompting! MySQL2 database; see repository for instructions </Card.Text>
                 
                 <div className="row">
                   <div className="col-6">
 
-                  <Card.Link href="https://www.google.com" className="bg-primary text-light rounded p-2">another link</Card.Link>
+                  <Card.Link href="https://github.com/santiagov916/employee-tracker#installation" className="bg-primary text-light rounded p-2 text-decoration-none" target="_blank">Repository</Card.Link>
 
                   </div>
                   <div className="col-6">
 
-                  <Card.Link href="https://www.google.com" className="bg-primary text-light rounded p-2">another link</Card.Link>
+                  <Card.Link href="https://watch.screencastify.com/v/kw2unOn8R11PL1LOkb74" className="bg-primary text-light rounded p-2 text-decoration-none" target="_blank">Video Demo</Card.Link>
 
                   </div>
 
@@ -264,49 +227,7 @@ function Projects() {
                </Card>
               </div>
 
-              <div className="col-lg-4 col-md-6 col-xs-12 col-sm-12 m-auto p-0">
-              <Card className="border-0 project-div">
-                <Card.Body className="project-info text-center">
-                  <CardHeader className="text-dark bg-light text-center m-1 border-0 ">Random Project</CardHeader>
-                  
-                  <ul className="list-group list-group-horizontal text-center justify-content-center">
-                    <li className="list-group-item p-0 border-0 mx-2">
-                      asdgasgd
-                      <span class="badge bg-primary rounded-pill m-2">14</span>
-                    </li>
-                    <li className="list-group-item p-0 border-0 mx-2">
-                      asdgasgd
-                      <span class="badge bg-primary rounded-pill m-2">14</span>
-                    </li>
-                    <li className="list-group-item p-0 border-0 mx-2">
-                      asdgasgd
-                      <span class="badge bg-primary rounded-pill m-2">14</span>
-                    </li>
-                    <li className="list-group-item p-0 border-0 mx-2">
-                      asdgasgd
-                      <span class="badge bg-primary rounded-pill m-2">14</span>
-                    </li>
-                  </ul>
-                   
-                  <Card.Text >lorem impsum doodly giggly goo God has been so Good to me and I thank him everyday for all that he has been doing in each and every one of our lives! I heard today that some saints were brutally murdered for the name of Jesus, that is very sobering.</Card.Text>
-                
-                <div className="row">
-                  <div className="col-6">
-
-                  <Card.Link href="https://www.google.com" className="bg-primary text-light rounded p-2">another link</Card.Link>
-
-                  </div>
-                  <div className="col-6">
-
-                  <Card.Link href="https://www.google.com" className="bg-primary text-light rounded p-2">another link</Card.Link>
-
-                  </div>
-
-                </div>
-                </Card.Body>
-               </Card>
-              </div>
-
+ 
               </div>
             </div>
           </div>

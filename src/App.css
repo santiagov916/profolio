@@ -9,14 +9,36 @@ body {
     background-color: white;
 }
 
-.project-div {
+.project-div-panda {
     background-image: url('./assets//projects/0.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.project-div:hover {
+.project-div-squirrel {
+    background-image: url('./assets//projects/1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project-div-turtle {
+    background-image: url('./assets//projects/4.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project-div-turtle:hover {
+    background-image: unset;
+}
+
+.project-div-panda:hover {
+    background-image: unset;
+}
+
+.project-div-squirrel:hover {
     background-image: unset;
 }
 
@@ -28,4 +50,13 @@ body {
 
 .project-info:hover {
     opacity: 1;
+}
+
+.resume-btn:hover {
+    color: #f8f9fa !important;
+    font-weight: bold;
+}
+
+.nav-focus:hover {
+    color: #dc3545 !important;
 }

@@ -42,10 +42,10 @@ function NavSection() {
           <Navbar.Toggle aria-controls="basic-navbar-nav"/>
           <Navbar.Collapse id="offcanvasNavbarDropdown">
             <Nav className="offset-md-6 offset-lg-8 offset-xl-9">
-              <Nav.Link onClick={scrollHome} className='text-dark text-center'>Home</Nav.Link>
-              <Nav.Link onClick={scrollAbout} className='text-dark text-center'>About</Nav.Link>
-              <Nav.Link onClick={scrollProject} className='text-dark text-center'>Portfolio</Nav.Link>
-              <Nav.Link onClick={scrollContact} className='text-dark text-center'>Contact</Nav.Link>
+              <Nav.Link onClick={scrollHome} className='text-dark text-center nav-focus'>Home</Nav.Link>
+              <Nav.Link onClick={scrollAbout} className='text-dark text-center nav-focus'>About</Nav.Link>
+              <Nav.Link onClick={scrollProject} className='text-dark text-center nav-focus'>Portfolio</Nav.Link>
+              <Nav.Link onClick={scrollContact} className='text-dark text-center nav-focus'>Contact</Nav.Link>
 
             </Nav>
           </Navbar.Collapse>

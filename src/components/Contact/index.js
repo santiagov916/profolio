@@ -50,7 +50,7 @@ function Contact() {
 
         <li className="list-group-item p-1 border-0 my-auto">
           <a className="h-75 text-dark h6 text-decoration-none"  href="https://stackoverflow.com/users/18916266/santiagovenegas" target="_blank">
-            stacked overflow
+            stack overflow
           
           </a>
         </li>
