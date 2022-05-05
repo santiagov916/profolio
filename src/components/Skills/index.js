@@ -8,10 +8,10 @@ function TechnicalSkills() {
 
     return (
         <>
-        <div className="container-fluid">
-            <div className="row m-auto">
+        <div className="container border-top">
+            <div className="row m-auto mt-4">
                 <div className="col-6 my-auto">
-                    <Image fluid alt="" src={stairs} className="w-50 offset-3 p-3" />
+                    <Image fluid alt="" src={stairs} className="w-75 offset-3 p-3" />
                 </div>
 
 

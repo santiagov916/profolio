@@ -11,13 +11,13 @@ function Projects() {
 
   return(
       <>
-        <div className="container-fluid mt-4 projects" id="#projects">
+        <div className="container projects border-top" id="#projects">
           <div className="row">
            
             <div className="col-12">
               <div className="row py-1">
 
-              <div className="row">
+              <div className="row my-3">
           <div className="col-12">
             <p className="h3 text-center p-4">Featured Projects</p>
           </div>

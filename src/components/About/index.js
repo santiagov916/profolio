@@ -9,8 +9,8 @@ function About() {
     return(
 
         <div>
-            <div className='container-fluid' id="#about">
-                <div className='row'>
+            <div className='container border-top' id="#about">
+                <div className='row mt-4'>
                     <div className="col-sm-12 col-xs-12 col-md-6 col-lg-6 m-auto">
                         <div className="row m-auto">
 
