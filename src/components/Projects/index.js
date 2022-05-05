@@ -1,10 +1,7 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Card, Image } from 'react-bootstrap';
-import first from '../../assets/projects/0.jpg';
-import second from '../../assets/projects/1.jpg';
-import third from '../../assets/projects/4.jpg'
-import CardHeader from 'react-bootstrap/esm/CardHeader';
+import { Card, Image, CardHeader } from 'react-bootstrap';
+
 
 function Projects() {
 
@@ -16,9 +13,9 @@ function Projects() {
            
             <div className="col-12">
               <div className="row py-1">
-          <div className="col-12">
-            <p className="h3 text-center p-4">Featured Projects</p>
-          </div>
+                <div className="col-12">
+                  <p className="h3 text-center p-4">Featured Projects</p>
+                </div>
 
               <div className="col-lg-4 col-md-6 col-xs-12 col-sm-12 m-auto p-0">
               <Card className="border-0 project-div-panda">
@@ -231,7 +228,6 @@ function Projects() {
               </div>
             </div>
           </div>
-
 
         </div>
       </>
