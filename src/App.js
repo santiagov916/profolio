@@ -6,9 +6,10 @@ import Contact from './components/Contact';
 import Home from './components/Home';
 import NavSection from './components/Nav';
 import TechnicalSkills from './components/Skills';
-import $ from 'jquery';
+import React,{ useState } from 'react';
 
 function App() {
+
   return (
    <>
     <NavSection></NavSection>

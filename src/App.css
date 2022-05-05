@@ -1,21 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
+
 body {
     font-family: 'Playfair Display', serif !important;
 }
 
 .project-link:hover {
-    background-color: black;
-    opacity: 50%;
-    scrollbar-darkshadow-color: black;
+    background-color: white;
 }
 
 .project-div {
     background-image: url('./assets//projects/0.jpg');
     background-position: center;
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .project-div:hover {
     background-image: unset;
+}
+
+.project-info {
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+
+.project-info:hover {
+    opacity: 1;
 }

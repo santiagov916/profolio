@@ -1,13 +1,13 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Card, Button, Container, Col, Row, Image } from 'react-bootstrap';
+import { Card, Image } from 'react-bootstrap';
 import first from '../../assets/projects/0.jpg';
 import second from '../../assets/projects/1.jpg';
 import third from '../../assets/projects/4.jpg'
+import CardHeader from 'react-bootstrap/esm/CardHeader';
 
 function Projects() {
 
-  
 
   return(
       <>
@@ -48,41 +48,264 @@ function Projects() {
          </div>
           </div>
 
-              <div className="col-4 p-0">
-                  <a className="project-link" href="https://github.com/santiagov916">
-                    <Image fluid src={first} alt="" className="h-100"/>
-                  </a>
-                </div>
+               
+              <div className="col-lg-4 col-md-6 col-xs-12 col-sm-12 m-auto p-0">
+              <Card className="border-0 project-div">
+                <Card.Body className="project-info text-center">
+                  <CardHeader className="text-dark bg-light text-center m-1 border-0 ">Random Project</CardHeader>
+                  
+                  <ul className="list-group list-group-horizontal text-center justify-content-center">
+                    <li className="list-group-item p-0 border-0 mx-2">
+                      asdgasgd
+                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                    </li>
+                    <li className="list-group-item p-0 border-0 mx-2">
+                      asdgasgd
+                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                    </li>
+                    <li className="list-group-item p-0 border-0 mx-2">
+                      asdgasgd
+                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                    </li>
+                    <li className="list-group-item p-0 border-0 mx-2">
+                      asdgasgd
+                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                    </li>
+                  </ul>
+                   
+                  <Card.Text >lorem impsum doodly giggly goo God has been so Good to me and I thank him everyday for all that he has been doing in each and every one of our lives! I heard today that some saints were brutally murdered for the name of Jesus, that is very sobering.</Card.Text>
+                
+                <div className="row">
+                  <div className="col-6">
 
-                <div className="col-4 p-0">
-                  <a className="project-link" href="https://github.com/santiagov916">
-                    <Image fluid src={second} alt="" className="h-100"/>
-                  </a>
-                </div>
+                  <Card.Link href="https://www.google.com" className="bg-primary text-light rounded p-2">another link</Card.Link>
 
-                <div className="col-4 p-0">
-                  <a className="project-link" href="https://github.com/santiagov916">
-                    <Image fluid src={third} alt="" className="h-100"/>
-                  </a>
-                </div>
+                  </div>
+                  <div className="col-6">
 
-               <Card className="col-4 p-0 project-div">
-                <Card.Body>
-                  <Card.Text className="text-dark bg-warning text-center mx-4">Random Project</Card.Text>
+                  <Card.Link href="https://www.google.com" className="bg-primary text-light rounded p-2">another link</Card.Link>
+
+                  </div>
+
+                </div>
                 </Card.Body>
                </Card>
+              </div>
 
-                <div className="col-4 p-0">
-                  <a className="project-link" href="https://github.com/santiagov916">
-                    <Image fluid src={third} alt="" className="h-100"/>
-                  </a>
-                </div>
+              <div className="col-lg-4 col-md-6 col-xs-12 col-sm-12 m-auto p-0">
+              <Card className="border-0 project-div">
+                <Card.Body className="project-info text-center">
+                  <CardHeader className="text-dark bg-light text-center m-1 border-0 ">Random Project</CardHeader>
+                  
+                  <ul className="list-group list-group-horizontal text-center justify-content-center">
+                    <li className="list-group-item p-0 border-0 mx-2">
+                      asdgasgd
+                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                    </li>
+                    <li className="list-group-item p-0 border-0 mx-2">
+                      asdgasgd
+                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                    </li>
+                    <li className="list-group-item p-0 border-0 mx-2">
+                      asdgasgd
+                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                    </li>
+                    <li className="list-group-item p-0 border-0 mx-2">
+                      asdgasgd
+                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                    </li>
+                  </ul>
+                   
+                  <Card.Text >lorem impsum doodly giggly goo God has been so Good to me and I thank him everyday for all that he has been doing in each and every one of our lives! I heard today that some saints were brutally murdered for the name of Jesus, that is very sobering.</Card.Text>
+                
+                <div className="row">
+                  <div className="col-6">
 
-                <div className="col-4 p-0">
-                  <a className="project-link" href="https://github.com/santiagov916">
-                    <Image fluid src={first} alt="" className="h-100"/>
-                  </a>
+                  <Card.Link href="https://www.google.com" className="bg-primary text-light rounded p-2">another link</Card.Link>
+
+                  </div>
+                  <div className="col-6">
+
+                  <Card.Link href="https://www.google.com" className="bg-primary text-light rounded p-2">another link</Card.Link>
+
+                  </div>
+
                 </div>
+                </Card.Body>
+               </Card>
+              </div>
+
+              <div className="col-lg-4 col-md-6 col-xs-12 col-sm-12 m-auto p-0">
+              <Card className="border-0 project-div">
+                <Card.Body className="project-info text-center">
+                  <CardHeader className="text-dark bg-light text-center m-1 border-0 ">Random Project</CardHeader>
+                  
+                  <ul className="list-group list-group-horizontal text-center justify-content-center">
+                    <li className="list-group-item p-0 border-0 mx-2">
+                      asdgasgd
+                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                    </li>
+                    <li className="list-group-item p-0 border-0 mx-2">
+                      asdgasgd
+                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                    </li>
+                    <li className="list-group-item p-0 border-0 mx-2">
+                      asdgasgd
+                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                    </li>
+                    <li className="list-group-item p-0 border-0 mx-2">
+                      asdgasgd
+                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                    </li>
+                  </ul>
+                   
+                  <Card.Text >lorem impsum doodly giggly goo God has been so Good to me and I thank him everyday for all that he has been doing in each and every one of our lives! I heard today that some saints were brutally murdered for the name of Jesus, that is very sobering.</Card.Text>
+                
+                <div className="row">
+                  <div className="col-6">
+
+                  <Card.Link href="https://www.google.com" className="bg-primary text-light rounded p-2">another link</Card.Link>
+
+                  </div>
+                  <div className="col-6">
+
+                  <Card.Link href="https://www.google.com" className="bg-primary text-light rounded p-2">another link</Card.Link>
+
+                  </div>
+
+                </div>
+                </Card.Body>
+               </Card>
+              </div>
+
+              <div className="col-lg-4 col-md-6 col-xs-12 col-sm-12 m-auto p-0">
+              <Card className="border-0 project-div">
+                <Card.Body className="project-info text-center">
+                  <CardHeader className="text-dark bg-light text-center m-1 border-0 ">Random Project</CardHeader>
+                  
+                  <ul className="list-group list-group-horizontal text-center justify-content-center">
+                    <li className="list-group-item p-0 border-0 mx-2">
+                      asdgasgd
+                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                    </li>
+                    <li className="list-group-item p-0 border-0 mx-2">
+                      asdgasgd
+                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                    </li>
+                    <li className="list-group-item p-0 border-0 mx-2">
+                      asdgasgd
+                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                    </li>
+                    <li className="list-group-item p-0 border-0 mx-2">
+                      asdgasgd
+                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                    </li>
+                  </ul>
+                   
+                  <Card.Text >lorem impsum doodly giggly goo God has been so Good to me and I thank him everyday for all that he has been doing in each and every one of our lives! I heard today that some saints were brutally murdered for the name of Jesus, that is very sobering.</Card.Text>
+                
+                <div className="row">
+                  <div className="col-6">
+
+                  <Card.Link href="https://www.google.com" className="bg-primary text-light rounded p-2">another link</Card.Link>
+
+                  </div>
+                  <div className="col-6">
+
+                  <Card.Link href="https://www.google.com" className="bg-primary text-light rounded p-2">another link</Card.Link>
+
+                  </div>
+
+                </div>
+                </Card.Body>
+               </Card>
+              </div>
+
+              <div className="col-lg-4 col-md-6 col-xs-12 col-sm-12 m-auto p-0">
+              <Card className="border-0 project-div">
+                <Card.Body className="project-info text-center">
+                  <CardHeader className="text-dark bg-light text-center m-1 border-0 ">Random Project</CardHeader>
+                  
+                  <ul className="list-group list-group-horizontal text-center justify-content-center">
+                    <li className="list-group-item p-0 border-0 mx-2">
+                      asdgasgd
+                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                    </li>
+                    <li className="list-group-item p-0 border-0 mx-2">
+                      asdgasgd
+                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                    </li>
+                    <li className="list-group-item p-0 border-0 mx-2">
+                      asdgasgd
+                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                    </li>
+                    <li className="list-group-item p-0 border-0 mx-2">
+                      asdgasgd
+                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                    </li>
+                  </ul>
+                   
+                  <Card.Text >lorem impsum doodly giggly goo God has been so Good to me and I thank him everyday for all that he has been doing in each and every one of our lives! I heard today that some saints were brutally murdered for the name of Jesus, that is very sobering.</Card.Text>
+                
+                <div className="row">
+                  <div className="col-6">
+
+                  <Card.Link href="https://www.google.com" className="bg-primary text-light rounded p-2">another link</Card.Link>
+
+                  </div>
+                  <div className="col-6">
+
+                  <Card.Link href="https://www.google.com" className="bg-primary text-light rounded p-2">another link</Card.Link>
+
+                  </div>
+
+                </div>
+                </Card.Body>
+               </Card>
+              </div>
+
+              <div className="col-lg-4 col-md-6 col-xs-12 col-sm-12 m-auto p-0">
+              <Card className="border-0 project-div">
+                <Card.Body className="project-info text-center">
+                  <CardHeader className="text-dark bg-light text-center m-1 border-0 ">Random Project</CardHeader>
+                  
+                  <ul className="list-group list-group-horizontal text-center justify-content-center">
+                    <li className="list-group-item p-0 border-0 mx-2">
+                      asdgasgd
+                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                    </li>
+                    <li className="list-group-item p-0 border-0 mx-2">
+                      asdgasgd
+                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                    </li>
+                    <li className="list-group-item p-0 border-0 mx-2">
+                      asdgasgd
+                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                    </li>
+                    <li className="list-group-item p-0 border-0 mx-2">
+                      asdgasgd
+                      <span class="badge bg-primary rounded-pill m-2">14</span>
+                    </li>
+                  </ul>
+                   
+                  <Card.Text >lorem impsum doodly giggly goo God has been so Good to me and I thank him everyday for all that he has been doing in each and every one of our lives! I heard today that some saints were brutally murdered for the name of Jesus, that is very sobering.</Card.Text>
+                
+                <div className="row">
+                  <div className="col-6">
+
+                  <Card.Link href="https://www.google.com" className="bg-primary text-light rounded p-2">another link</Card.Link>
+
+                  </div>
+                  <div className="col-6">
+
+                  <Card.Link href="https://www.google.com" className="bg-primary text-light rounded p-2">another link</Card.Link>
+
+                  </div>
+
+                </div>
+                </Card.Body>
+               </Card>
+              </div>
 
               </div>
             </div>
@@ -91,48 +314,6 @@ function Projects() {
 
         </div>
       </>
-//         <Container id='projects' fluid className='projects-container'>
-//             <h2 className='text-center p-3' style={{ fontfamily: ' Merriweather, serif'}}>Projects</h2>
-//             <Row>
-//                 <Col>
-//                     <Card className='mb-3' style={{ width: '15rem' }}>
-//             <Card.Img variant="top" src={first} />
-//             <Card.Body>
-//                 <Card.Title>E-com Backend</Card.Title>
-//                 <Card.Text>
-//                     dotenv , express , mysql , sequelize
-//                 </Card.Text>
-//                 <Button variant="primary" href='https://github.com/santiagov916/e-commerce-database' target='_blank'>See repository</Button>
-//             </Card.Body>
-//             </Card>
-//             </Col>
-//             <Col>
-// <Card style={{ width: '15rem' }}>
-//   <Card.Img variant="top" src={second} />
-//   <Card.Body>
-//     <Card.Title>Dev-tech Blog</Card.Title>
-//     <Card.Text>
-//               mysql, express, express-handlebars
-//     </Card.Text>
-//     <Button variant="primary" href='https://github.com/santiagov916/dev-tech-blog' target='_blank'>See repository</Button>
-//   </Card.Body>
-// </Card>
-// </Col>
-// <Col>
-// <Card style={{ width: '15rem' }}>
-//   <Card.Img variant="top" className='third' src={third} />
-//   <Card.Body>
-//     <Card.Title>Social-API</Card.Title>
-//     <Card.Text>
-//             nodemon, mongoose
-//             NoSQL
-//     </Card.Text>
-//     <Button variant="primary" href='https://github.com/santiagov916/social-api' target='_blank'>See repository</Button>
-//   </Card.Body>
-// </Card>
-// </Col>
-//         </Row>
-// </Container>
     )
   };
 
