@@ -1,6 +1,7 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Card, Image, CardHeader } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
+import CardHeader from 'react-bootstrap/esm/CardHeader';
 
 
 function Projects() {
@@ -216,6 +217,40 @@ function Projects() {
                   <div className="col-6">
 
                   <Card.Link href="https://watch.screencastify.com/v/kw2unOn8R11PL1LOkb74" className="bg-primary text-light rounded p-2 text-decoration-none" target="_blank">Video Demo</Card.Link>
+
+                  </div>
+
+                </div>
+                </Card.Body>
+               </Card>
+              </div>
+
+              <div className="col-lg-4 col-md-6 col-xs-12 col-sm-12 m-auto p-0">
+              <Card className="border-0 project-div-squirrel">
+                <Card.Body className="project-info text-center">
+                  <CardHeader className="text-dark bg-light text-center m-1 border-0 ">Book Search</CardHeader>
+                  
+                  <ul className="list-group list-group-horizontal text-center justify-content-center">
+                    <li className="list-group-item p-0 border-0 mx-2">
+                      Apollo
+                      <span className="badge bg-primary rounded-pill m-2">50%</span>
+                    </li>
+                    <li className="list-group-item p-0 border-0 mx-2">
+                      graphQL
+                      <span className="badge bg-primary rounded-pill m-2">50%</span>
+                    </li>
+                    <li className="list-group-item p-0 border-0 mx-2">
+                      Express
+                      <span className="badge bg-primary rounded-pill m-2">100%</span>
+                    </li>
+                  </ul>
+                   
+                  <Card.Text >GraphQL with Apollo-server-express, easily find the books you love with our Book Search Program. Happy reading!</Card.Text>
+                
+                <div className="row">
+                  <div className="col-6 m-auto">
+
+                  <Card.Link href="https://github.com/santiagov916/book-search" className="bg-primary text-light rounded p-2 text-decoration-none" target="_blank">Repository</Card.Link>
 
                   </div>
 
