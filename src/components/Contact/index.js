@@ -6,7 +6,7 @@ import photoPhone from './images/phonePhoto.png';
 import linkedIn from './images/linkedIn.png';
 import emailMe from './images/emailMe.png';
 import side from '../../assets/me/side.jpeg';
-import stacked from './images/s.png'
+
 
 function Contact() {
   return (

@@ -1,4 +1,4 @@
-import React, { scrollTo } from 'react';
+import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Nav, Container, Navbar } from 'react-bootstrap';
 import { scroller} from 'react-scroll';

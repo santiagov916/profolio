@@ -1,4 +1,4 @@
-import React, { useState, scrollToSection } from 'react';
+import React, { useState } from 'react';
 import Bootstrap from 'bootstrap';
 import intro from '../../assets/me/handshake.jpeg';
 import resume from '../../assets/resume/first.jpg';
@@ -21,7 +21,7 @@ function Home() {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-  scrollToSection = () => {
+  const scrollToSection = function() {
     scroller.scrollTo("projects", {
       duration: 200,
       delay: 0,
