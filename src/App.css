@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+body {
+    font-family: 'Playfair Display', serif !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.project-link:hover {
+    background-color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.project-div-panda {
+    background-image: url('./assets//projects/0.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.project-div-squirrel {
+    background-image: url('./assets//projects/1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.App-link {
-  color: #61dafb;
+.project-div-turtle {
+    background-image: url('./assets//projects/4.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.project-div-turtle:hover {
+    background-image: unset;
+}
+
+.project-div-panda:hover {
+    background-image: unset;
+}
+
+.project-div-squirrel:hover {
+    background-image: unset;
+}
+
+.project-info {
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+
+.project-info:hover {
+    opacity: 1;
+}
+
+.resume-btn:hover {
+    color: #f8f9fa !important;
+    font-weight: bold;
+}
+
+.nav-focus:hover {
+    color: #dc3545 !important;
 }

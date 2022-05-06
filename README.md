@@ -1,23 +1,48 @@
-# Getting Started with Create React App
+# Profolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  
+  ## Table of Content
+  
+  * [Description](#description)
+  
+  * [Motivation](#motivation)
+  
+  * [Usage](#usage)
+  
+  * [Installation](#Installation)
+  
+  * [Contributors and more](#contributors)
+  
+  * [Questions](#questions)
 
-## Available Scripts
+  ## Description
 
-In the project directory, you can run:
+  Thank you for stopping by! So Nice to E-meet you, if you have any questions please feel free to contact me through my available outlets! I look forward to working with the best! 
+  
+  ## Motivation
 
-### `npm start`
+  I wanted a professional place to display my career's work and my passion for coding!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  ## Usage
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  click here: 
 
-### `npm test`
+  ## Installation 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  ### Dependencies: react, bootstrap, download.js, react-scroll
+  ### To install: npm i OR npm install
+  ### CLI to start: npm start
+
+  ## Contributors
+
+  ### People: 100% myself, and documentation 
+  ### GitHub username + link: [santiagov916](github.com/santiagov916)
+  ### GitHub Link to project: https://github.com/santiagov916/profolio
+
+  ## Questions?
+
+  ### Email the programmer: santiago1venegas@gmail.com
 
 ### `npm run build`
 
