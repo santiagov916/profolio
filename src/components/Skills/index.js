@@ -9,41 +9,36 @@ function TechnicalSkills() {
     return (
         <>
         <div className="container border-top">
-            <div className="row m-auto mt-4">
+            <div className="row my-4">
                 <div className="col-4 my-auto">
                     <Image fluid alt="" src={stairs} className="w-75 offset-3 p-3" />
                 </div>
 
 
-                <div className="col-6 m-auto">
+                <div className="col-8 m-auto text-center">
                 
-                        <header className="text-center m-auto h3 pb-2">Technical Skills</header>
+                        <header className="h3 pb-2">Technical Skills</header>
+
+                        <ul>
+                            <li className="list-inline">GraphQL</li>
+
+                            <li className="list-inline">MongoDB</li>
+
+                            <li className="list-inline">Node.JS</li>
+
+                            <li className="list-inline">Express.JS</li>
+
+                            <li className="list-inline">HTML</li>
+
+                            <li className="list-inline">CSS</li>
+
+                            <li className="list-inline">Back-end database</li>
+
+                            <li className="list-inline">MERN Stack</li>
+                        </ul>
                        
                
-                            <div className="col-12 my-3">
-                            <ProgressBar className="w-75 m-auto" variant="warning text-dark" now={80} label={`GraphQL`}></ProgressBar>
-                            </div>
-                            <div className="col-12 my-3">
-                            <ProgressBar className="w-75 m-auto" variant="warning text-dark" now={40} label={`MongoDB`}></ProgressBar>
-                            </div>
-                            <div className="col-12 my-3">
-                            <ProgressBar className="w-75 m-auto" variant="warning text-dark" now={70} label={`Node.JS`}></ProgressBar>
-                            </div>
-                            <div className="col-12 my-3">
-                            <ProgressBar className="w-75 m-auto" variant="warning text-dark" now={90} label={`Express.JS`}></ProgressBar>
-                            </div>
-                            <div className="col-12 my-3">
-                            <ProgressBar className="w-75 m-auto" variant="warning text-dark" now={95} label={`HTMl`}></ProgressBar>
-                            </div>
-                            <div className="col-12 my-3">
-                            <ProgressBar className="w-75 m-auto" variant="warning text-dark" now={65} label={`CSS`}></ProgressBar>
-                            </div>
-                            <div className="col-12 my-3">
-                            <ProgressBar className="w-75 m-auto" variant="warning text-dark" now={80} label={`back-end database`}></ProgressBar>
-                            </div>
-                            <div className="col-12 my-3">
-                            <ProgressBar className="w-75 m-auto" variant="warning text-dark" now={50} label={`MERN Stack`}></ProgressBar>
-                            </div>
+                        
                          
                </div>
     

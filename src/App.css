@@ -9,36 +9,69 @@ body {
     background-color: white;
 }
 
-.project-div-panda {
-    background-image: url('./assets//projects/0.jpg');
+.project-div-weather {
+    background-image: url('./assets//projects/weatherdash.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.project-div-squirrel {
-    background-image: url('./assets//projects/1.jpg');
+.project-div-ecom {
+    background-image: url('./assets//projects/ecomdb.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.project-div-turtle {
-    background-image: url('./assets//projects/4.jpg');
+.project-div-employee {
+    background-image: url('./assets//projects/employee.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.project-div-turtle:hover {
+.project-div-social {
+    background-image: url('./assets//projects/social.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project-div-notes {
+    background-image: url('./assets//projects/notes.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project-div-team {
+    background-image: url('./assets//projects/team.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project-div-employee:hover {
     background-image: unset;
 }
 
-.project-div-panda:hover {
+.project-div-weather:hover {
     background-image: unset;
 }
 
-.project-div-squirrel:hover {
+.project-div-ecom:hover {
+    background-image: unset;
+}
+
+.project-div-social:hover {
+    background-image: unset;
+}
+
+.project-div-notes:hover {
+    background-image: unset;
+}
+
+.project-div-team:hover {
     background-image: unset;
 }
 
