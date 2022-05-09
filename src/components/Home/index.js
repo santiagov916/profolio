@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Bootstrap from 'bootstrap';
 import intro from '../../assets/me/handshake.jpeg';
 import download from 'downloadjs';
 import main from '../../assets/resume/main.pdf';
@@ -48,7 +47,7 @@ return (
                 <Button variant="" className=" btn-outline-danger" onClick={handleShow}>
                 Resume
                 </Button>
-                <button type="submit" className="btn btn-outline-danger" ><a href="https://github.com/santiagov916/profolio" className="text-danger text-decoration-none resume-btn" target="_blank">
+                <button type="submit" className="btn btn-outline-danger" ><a href="https://github.com/santiagov916/profolio" className="text-danger text-decoration-none resume-btn" target="_blank" rel="noreferrer">
                   Resume Repository</a></button>
             </div>
             
