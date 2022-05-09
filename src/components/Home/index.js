@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import Bootstrap from 'bootstrap';
 import intro from '../../assets/me/handshake.jpeg';
-import resume from '../../assets/resume/first.jpg';
-import secondResume from '../../assets/resume/second.jpg';
 import download from 'downloadjs';
+import main from '../../assets/resume/main.pdf';
 import { Modal, Button } from 'react-bootstrap';
 import { scroller } from 'react-scroll';
 
@@ -11,8 +10,8 @@ import { scroller } from 'react-scroll';
 function Home() {
   
   const downloadResumes = function() {
-    download(resume);
-    download(secondResume);
+
+    download(main);
     handleClose()
   }
   
