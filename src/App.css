@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'Playfair Display', serif !important;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
 }
 
 .project-link:hover {
@@ -51,6 +59,20 @@ body {
     background-repeat: no-repeat;
 }
 
+.project-div-responsive {
+    background-image: url('./assets/projects/responsive.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project-div-responsive-two {
+    background-image: url('./assets/projects/quality.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .project-div-employee:hover {
     background-image: unset;
 }
@@ -75,6 +97,18 @@ body {
     background-image: unset;
 }
 
+.project-div-responsive:hover {
+    background-image: unset;
+}
+
+.project-div-responsive-two:hover {
+    background-image: unset;
+}
+
+a:hover {
+    opacity: 75%;
+}
+
 .project-info {
     opacity: 0;
     transition-property: opacity;
@@ -92,4 +126,65 @@ body {
 
 .nav-focus:hover {
     color: #dc3545 !important;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact-list-two {
+    justify-content: space-evenly;
+}
+
+.contact-list,
+.contact-list-two {
+    align-items: center;
+    display: flex;
+}
+
+.contact-list li { 
+    width: 100%;
+}
+
+.custom-border {
+    border-bottom: 1px solid #dc3545;
+}
+
+
+
+.skills-ul li,
+.currently li {
+    margin-bottom: 1rem;
+}
+
+@media (max-width:600px) {
+    .skills-ul li {
+        margin-bottom: .5rem;
+    }
+}
+
+@media (max-width:1230px) {
+   .home-title {
+    font-size: 2rem !important;
+   }
+}
+
+@media (max-width: 600px) {
+    .home-title {
+        font-size: 1.5em !important;
+    }
+
+    .skills-title {
+        margin-top: 1rem;
+    }
+
+    .skill-name {
+        border-bottom: none;
+    }
 }
