@@ -51,6 +51,24 @@ function About() {
                         </div>
                         </div>
                     </div>
+
+                    <div className='currently'>
+              <h3 className='text-center mb-3'>What are you doing right now <span className='text-danger'>?</span></h3>
+              <ul className='text-left w-50 m-auto list-unstyled'>
+                <li>
+                - The lead developer for a new website for a Church in Sacramento.
+                </li>
+                <li>
+                - Currently focused on front-end development , more clean and concise coding, and creating the best layouts for the client.
+                </li>
+                <li>
+                - Expanding my knowledge on Javascript, CSS, Figma via hands-on coding, courses, projects, tutorials
+                </li>
+              </ul>
+              <p></p>
+              <br />
+
+            </div>
                 </div>
             </div>
         </div>

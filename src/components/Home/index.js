@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
-import Bootstrap from 'bootstrap';
 import intro from '../../assets/me/handshake.jpeg';
-import resume from '../../assets/resume/first.jpg';
-import secondResume from '../../assets/resume/second.jpg';
 import download from 'downloadjs';
+import main from '../../assets/resume/main.pdf';
 import { Modal, Button } from 'react-bootstrap';
 import { scroller } from 'react-scroll';
 
@@ -11,8 +9,8 @@ import { scroller } from 'react-scroll';
 function Home() {
   
   const downloadResumes = function() {
-    download(resume);
-    download(secondResume);
+
+    download(main);
     handleClose()
   }
   
@@ -29,29 +27,34 @@ function Home() {
   };
 
 return (
-    <div className='container-fluid mt-5' id="#home">
-        <div className='row min-100-vw'>
-          <div className='image-side col-lg-5 col-md-12 col-sm-12 col-xs-12 p-5 text-center flex-column mb-auto'>
+    <div className='container-fluid mt-5 w-75' id="#home">
+        <div className='row justify-content-space-between'>
+
+          <div className='image-side col-lg-5 col-md-12 col-sm-12 p-5 text-center'>
          
-            <img className='img-fluid m-auto img-thumbnail rounded w-50' src={intro} alt='' />
+            <img className='img-fluid rounded w-50' src={intro} alt='' />
             
           </div>
 
-          <div className='col-lg-7 col-md-12 col-sm-12 text-center m-auto flex-column'>
-            <div className='pt-5'>
+         
+ 
+            <div className='col-lg-7 col-md-12 col-sm-12 m-auto text-center'>
 
-            
-            <p className='display-6'>Hello, I'm <span className='text-danger'>Santiago Venegas.</span><br /> I'm a Fullstack Developer.</p>
+            <p className='display-6 home-title'>Hello, I'm <span className='text-danger'>Santiago Venegas.</span><br /> I'm a Fullstack Developer.</p>
 
-            </div>
+
             <div className="btn-group pb-5" id='resumeBtn' role="group" aria-label="Button Prompts">
                 <button type="button" className="btn btn-outline-danger" onClick={scrollToSection}>Portfolio</button>
                 <Button variant="" className=" btn-outline-danger" onClick={handleShow}>
                 Resume
                 </Button>
-                <button type="submit" className="btn btn-outline-danger" ><a href="https://github.com/santiagov916/profolio" className="text-danger text-decoration-none resume-btn" target="_blank">
+                <button type="submit" className="btn btn-outline-danger" ><a href="https://github.com/santiagov916/profolio" className="text-danger text-decoration-none resume-btn" target="_blank" rel="noreferrer">
                   Resume Repository</a></button>
+         
+
             </div>
+            </div>
+
             
 
       <Modal show={show} onHide={handleClose}>
@@ -70,7 +73,6 @@ return (
       </Modal>
     </div>
   </div>   
-</div>
   )
 };
 
