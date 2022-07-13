@@ -448,6 +448,7 @@ function Projects() {
 
 </div>
 
+{/* Backend Section */}
           <div className="row">
            
             <div className="col-12">
@@ -483,21 +484,15 @@ function Projects() {
                   <Card.Text >Complete Backend for an online business, See repository for functionality!</Card.Text>
                 
                 <div className="row">
-                  <div className="col-4">
+                  <div className="col-6">
 
                   <Card.Link href="https://watch.screencastify.com/v/wYtjVHLlWqBIb7ODloDF" className="bg-primary text-light rounded p-2 text-decoration-none" target="_blank">Tutorial</Card.Link>
 
                   </div>
 
-                  <div className="col-4">
+                  <div className="col-6">
 
                     <Card.Link href="https://github.com/santiagov916/e-commerce-database" className="bg-primary text-light rounded p-2 text-decoration-none" target="_blank">Repository</Card.Link>
-
-                  </div>
-
-                  <div className="col-4">
-
-                  <Card.Link href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository" className="bg-primary text-light rounded p-2 text-decoration-none" target="_blank">Clone Repo</Card.Link>
 
                   </div>
 
@@ -533,20 +528,14 @@ function Projects() {
                   <Card.Text >Backend database created for a social media setting! Tested by Insomnia.</Card.Text>
                 
                 <div className="row">
-                  <div className="col-4">
+                  <div className="col-6">
 
                   <Card.Link href="https://watch.screencastify.com/v/2VL0T3rs0bSvJ2ANAWCd" className="bg-primary text-light rounded p-2 text-decoration-none" target="_blank">Tutorial</Card.Link>
 
                   </div>
-                  <div className="col-4">
+                  <div className="col-6">
 
                   <Card.Link href="https://github.com/santiagov916/social-api" className="bg-primary text-light rounded p-2 text-decoration-none" target="_blank">Repository</Card.Link>
-
-                  </div>
-
-                  <div className="col-4">
-
-                  <Card.Link href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository" className="bg-primary text-light rounded p-2 text-decoration-none" target="_blank">Clone Repo</Card.Link>
 
                   </div>
 
